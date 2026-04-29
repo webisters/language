@@ -1,0 +1,72 @@
+{
+    "name": "webisters/language",
+    "description": "Webisters Language Library",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "language",
+        "lang",
+        "locale",
+        "localization",
+        "internationalization",
+        "i18n",
+        "l10n",
+        "intl"
+    ],
+    "authors": [
+        {
+            "name": "Hafiz Muhammad Moaz",
+            "email": "hafizmoazkhalid@gmail.com",
+            "homepage": "https://github.com/HafizMMoaz"
+        }
+    ],
+    "homepage": "https://webisters.com/packages/language",
+    "support": {
+        "email": "support@webisters.com",
+        "issues": "https://github.com/webisters/language/issues",
+        "forum": "https://github.com/webisters/forum",
+        "source": "https://github.com/webisters/language",
+        "docs": "https://webisters.com"
+    },
+    "funding": [
+        {
+            "type": "Webisters Sponsor",
+            "url": "https://webisters.com/sponsor"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "ext-intl": "*",
+        "webisters/debug": "*",
+        "webisters/helpers": "*"
+    },
+    "require-dev": {
+        "webisters/coding-standard": "*",
+        "jetbrains/phpstorm-attributes": "^1.0",
+        "phpunit/phpunit": "^10.5"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Framework\\Language\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Language\\": "tests/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.x-dev"
+        }
+    }
+}
+
+
